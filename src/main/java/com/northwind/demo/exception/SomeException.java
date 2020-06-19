@@ -1,4 +1,7 @@
-package com.northwind.demo;
+package com.northwind.demo.exception;
 
-public class hahahaha {
+public class SomeException extends RuntimeException {
+    public SomeException(String s) {
+        super(s);
+    }
 }
